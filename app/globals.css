@@ -5,11 +5,18 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  /* Kids Subjects Colors */
+  --color-kid-math: #ff823a ;
+  --color-kid-physics: #bc84ee;
+  --color-kid-arabic: #dcfd8b;
+  --color-kid-english: #fdd5bd;
+  --color-kid-sky:#38bdf8;
+
+  /* Parents Portal Colors */
+  --color-parent-navy: #0f172a;
+  --color-parent-primary: #4f46e5;
+  --color-parent-bg: #f8fafc;
 }
 
 @media (prefers-color-scheme: dark) {
