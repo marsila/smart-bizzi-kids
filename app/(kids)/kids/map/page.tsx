@@ -13,7 +13,7 @@ export default function KidsMap(){
             <h1 className="text-4xl md:text-5xl font-extrabold text-slate-800 text-center tracking-wide">
                 Pick Your Adventure!
             </h1>
-            <div className="grid gride-cols-2 gap-6 w-full max-w-2xl px-4">
+            <div className="grid grid-cols-2 gap-6 w-full max-w-2xl px-4">
                 {SUBJECTS.map(subject => (
                     <Link 
                       href={subject.href}
