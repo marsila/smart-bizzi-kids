@@ -1,0 +1,88 @@
+{
+    "child":{
+        "name": "Maria",
+        "age": 5,
+        "avatar": "👧",
+        "stars": 142,
+        "streak": 5,
+        "timeTodayMinutes": 22,
+        "dailyGoalMinutes": 30
+    },
+    "subjectsProgress":[
+        {
+            "id": "math",
+            "title": "Mathematics",
+            "icon": "🍎",
+            "color": "bg-orange-500",
+            "lightBg": "bg-orange-50",
+            "textColor": "text-orange-600",
+            "borderColor": "border-orange-200",
+            "progress": 80,
+            "currentTopic": "Visual Addition & Grouping",
+            "starsEarned": 45
+        },
+        {
+            "id": "arabic",
+            "title": "Arabic Phonics",
+            "icon": "📗",
+            "color": "bg-lime-500",
+            "lightBg": "bg-lime-50",
+            "textColor": "text-lime-700",
+            "borderColor": "border-lime-200",
+            "progress": 92,
+            "currentTopic": "Letter Forms (Alif, Baa, Taa)",
+            "starsEarned": 52
+        },
+        {
+            "id": "physics",
+            "title": "Physics Sandbox",
+            "icon": "🚀",
+            "color": "bg-purple-500",
+            "lightBg": "bg-purple-50",
+            "textColor": "text-purple-600",
+            "borderColor": "border-purple-200",
+            "progress": 65,
+            "currentTopic": "Mass & Balance Scale",
+            "starsEarned": 28
+        },
+        {
+            "id": "english",
+            "title": "English Literacy",
+            "icon": "🔤",
+            "color": "bg-amber-400",
+            "lightBg": "bg-amber-50",
+            "textColor": "text-amber-700",
+            "borderColor": "border-amber-200",
+            "progress": 50,
+            "currentTopic": "3-Letter Sight Words",
+            "starsEarned": 17
+        }
+  ],
+
+  "recentActivity" : [
+        {
+            "id": 1,
+            "subject": "Arabic Phonics",
+            "icon": "📗",
+            "action": "Completed Level 4: Animal Phonetics",
+            "time": "15 mins ago",
+            "score": "+5 Stars"
+        },
+        {
+            "id": 2,
+            "subject": "Mathematics",
+            "icon": "🍎",
+            "action": "Mastered 'Apple Basket Counting'",
+            "time": "2 hours ago",
+            "score": "+10 Stars"
+        },
+        {
+            "id": 3,
+            "subject": "Physics Sandbox",
+            "icon": "🚀",
+            "action": "Unlocked 'Rocket Weight Balance'",
+            "time": "Yesterday",
+            "score": "+8 Stars"
+        }
+    ]
+}
